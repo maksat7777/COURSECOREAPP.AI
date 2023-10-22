@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" > 
+    <link rel="stylesheet" href="todolist.css" > 
+    <script defer src="index.js">  </script>
+    <script defer src="todolist.js">  </script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header> My Portfolio  </header>
+ <main>
+<div class="content"> 
+<h1>My counter</h1>
+<label id ="countLabel">0</label>
+<div class="buttons">
+
+<button id="descreaseBtn">decrease</button>
+<button id="resetBtn">reset</button>
+<button id="increaseBtn">increase</button>
+</div>
+
+</div>
+<hr/>
+<section>
+    <h2>My Table </h2>
+    <table> 
+        <tr>
+            <th class="currency-block">Currency</th>
+            <th>Country</th>
+         
+        </tr>
+        <tr>
+            <td class="currency-block">USD</td>
+            <td>USA</td>
+        </tr>
+        
+       <tr>
+         
+        <td class="currency-block">KZT</td>
+        <td>Kazakhstan</td>
+       </tr>
+
+       <tr>
+        
+          <td class="currency-block">Rub</td>
+          <td>Russian</td>    
+       </tr>
+    </table>
+    
+</section>
+<section >
+   <h2> Registration form</h2>
+   <div class="registration">
+   <form action="" >
+    <div class="formal">
+        <label for="name" >Name</label>
+    <input type="text" id="name">
+    
+    </div>
+    
+<div class="formal">
+     <label for="phone-number" >Phone number</label>
+    <input type ="number" id="phone-number">
+    
+</div>
+   
+<div class="formal">
+    <label for ="remember- me " >Remember me</label>
+    <input type ="checkbox" id="remember- me ">
+    
+</div>
+
+    
+
+    <button type="submit" class="submit-btn"> Register</button>
+   </form>
+   </div>
+</section>
+
+<hr/>
+<section class="todolist-box">
+    <h2>
+        Todolist
+    </h2>
+    <div>
+        <input type="text" id="input-box">
+        <button onclick="addTask()">Add</button>
+    </div>
+    <ul id ="list-box">
+        <li>JS <input type ="checkbox"> <button>x</button> </li>
+        
+        <!-- <li> HTML <input type ="checkbox"> <button>x</button></li>
+        <li>CSS<input type ="checkbox"> <button>x</button></li>
+        <li>React<input type ="checkbox"> <button>x</button></li> -->
+
+    </ul>
+</section>
+    
+    </main>
+    <footer>Footer</footer>
+</body>
+</html>

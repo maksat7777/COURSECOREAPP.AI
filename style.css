@@ -1,0 +1,75 @@
+* {
+    margin:0;
+    padding:0;
+
+}
+html{
+    height: 100vh;
+}
+     header,
+      footer {
+        height: 70px;
+        width:100vw;
+        background-color: aquamarine;
+
+     }
+main{
+    height:100%;
+    width:100%;
+}
+.content{
+    height: 200px;
+    /* background: linear-gradient(135deg,#153677,#4e085f); */
+}      
+#countLabel{
+    display:block;
+    text-align: center;
+    align-items: center;
+
+    font-size: 80px;
+
+}
+.buttons{
+    display:flex;
+    justify-content:center;
+}
+
+#descreaseBtn, 
+#resetBtn,
+#increaseBtn{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+table{
+    border: 1px solid black;
+}
+tr {
+    background-color: gray;
+    border: 1px solid black;
+}
+.currency-block{
+    background-color: red;
+}
+.registration  {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border: 1px solid gray;
+    margin: 10px;
+}
+.formal{
+    margin: 10px;
+    width:400px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.submit-btn{
+    margin-left: 10px;
+}
